@@ -11,9 +11,11 @@ public class DemoApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
+        System.out.println("helloworld");
     }
+
     @GetMapping("/hi")
-    public String hi(){
-        return "hi,I'm lemon-4 ";
+    public String hi() {
+        return "hi,I'm lemon-3";
     }
 }
